@@ -1,0 +1,62 @@
+<html>
+<head>
+<style>
+        .sender div:nth-of-type(1){
+            float: left;
+        }
+        .sender div:nth-of-type(2){
+            background-color: aquamarine;
+            float: left;
+            margin: 0 20px 10px 15px;
+            padding: 10px 10px 10px 0px;
+            border-radius:7px;
+        }
+
+        .receiver div:first-child img,
+        .sender div:first-child img{
+            width:44px;
+            height: 44px;
+            border:0px solid;
+            border-radius:25px;
+        }
+
+        .receiver{
+            clear:both;
+        }
+        .receiver div:nth-child(1){
+            float: right;
+        }
+        .receiver div:nth-of-type(2){
+            float:right;
+            background-color: #3bb7ff;
+            margin: 0 10px 10px 20px;
+            padding: 10px 0px 10px 10px;
+            border-radius:7px;
+        }
+
+        .right_triangle{
+            height:0px;
+            width:0px;
+            border-width:8px;
+            border-style:solid;
+            border-color:transparent transparent transparent #3bb7ff;
+            position: relative;
+            right:-16px;
+            top:3px;
+        }
+
+  </style>
+</head>
+<body>
+<!-- Right -->
+  <div class="receiver">
+      <div>
+          <img src="avatar.jpg">
+      </div>
+   <div>
+        <div class="right_triangle"></div>
+        <span> hello world </span>
+   </div>
+  </div>
+</body>
+</html>

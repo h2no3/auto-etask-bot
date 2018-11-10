@@ -27,4 +27,10 @@ def etask_off(msg, bot):
             return
         last_repeat_time = datetime.now()
         repeat_content = msg.content
+        # 1. repeat last message
         bot.send_group_msg(repeat_content, msg.from_uin, randint(1, 10000))
+        # 2. snapshot generating
+        # 3. record generating
+        # 4. send to team leader at the given time
+
+
